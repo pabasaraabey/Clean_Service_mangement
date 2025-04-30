@@ -35,7 +35,7 @@ A full-stack web application to manage cleaning services — allows users to reg
 -git clone https://github.com/pabasaraabey/Clean_Service_mangement.git
 cd Clean_Service_mangement-
 
-###2. Backend Setup
+###. Backend Setup
 
 cd backend
 npm install
@@ -48,7 +48,7 @@ JWT_SECRET=your_jwt_secret
 
 Start the server: npm run server
 
-###3. Frontend Setup
+###. Frontend Setup
 
 cd ../frontend
 npm install
