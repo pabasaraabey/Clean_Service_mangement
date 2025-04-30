@@ -7,7 +7,7 @@ import { Toaster } from "react-hot-toast";
 function App() {
   const location = useLocation();
 
-  const hideLayout = location.pathname.startsWith("/admin"); // Common toggle for admin
+  const hideLayout = location.pathname.startsWith("/admin"); 
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900 flex flex-col">

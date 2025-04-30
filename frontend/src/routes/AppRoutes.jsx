@@ -13,7 +13,7 @@ const AppRoutes = () => (
     <Route path="/login" element={<Login />} />
     <Route path="/register" element={<Register />} />
 
-    {/* ✅ Protected User Routes */}
+   
     <Route
       path="/bookings"
       element={
@@ -31,7 +31,7 @@ const AppRoutes = () => (
       }
     />
 
-    {/* ✅ Admin Dashboard Route */}
+   
     <Route
   path="/admin/dashboard"
   element={

@@ -46,10 +46,10 @@ export const AuthProvider = ({ children }) => {
     if (storedToken) {
       setToken(storedToken);
       try {
-        const decoded = jwtDecode(storedToken); // ✅ Decode safely
+        const decoded = jwtDecode(storedToken); 
         setUser(decoded);
       } catch {
-        logout(); // Token invalid or expired
+        logout(); 
       }
     }
   }, []);

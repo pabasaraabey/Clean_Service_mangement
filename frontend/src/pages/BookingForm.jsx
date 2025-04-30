@@ -13,7 +13,7 @@ const BookingForm = () => {
   const [services, setServices] = useState([]);
   const navigate = useNavigate();
 
-  // Fetch available services
+  // available services
   useEffect(() => {
     const fetchServices = async () => {
       try {

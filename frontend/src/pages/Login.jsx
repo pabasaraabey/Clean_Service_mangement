@@ -20,7 +20,7 @@ const Login = () => {
     if (result.success) {
       toast.success("Login successful!");
 
-      // ✅ Redirect admin to /admin/bookings and others to /bookings
+      
       if (result.isAdmin) {
         navigate("/admin/dashboard");
       } else {

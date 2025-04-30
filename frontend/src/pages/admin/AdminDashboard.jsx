@@ -136,7 +136,7 @@ const AdminDashboard = () => {
     }
   };
 
-  // Initialize data
+  
   useEffect(() => {
     fetchBookings();
     fetchServices();

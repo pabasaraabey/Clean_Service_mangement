@@ -43,7 +43,7 @@ const BookingsList = () => {
       const data = await res.json();
       if (res.ok) {
         toast.success("Booking deleted");
-        fetchBookings(); // refresh list
+        fetchBookings(); 
       } else {
         toast.error(data.message || "Failed to delete booking");
       }

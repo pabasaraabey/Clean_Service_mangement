@@ -24,7 +24,7 @@ const PrivateRoute = ({ children }) => {
         const data = await res.json();
 
         if (res.ok) {
-          // Admin route check
+          
           const isAdminRoute = location.pathname.startsWith("/admin");
 
           if (isAdminRoute && !data.isAdmin) {
